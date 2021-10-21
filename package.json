@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "discord.js": "^13.2.0"
+  },
+  "name": "gobalbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": ["discord", "global", "v13"],
+  "author": "Tomato#6966",
+  "license": "MIT",
+  "description": "This is a simple fast global Bot written in discord.js v13 for a youtube tutorial!"
+}
