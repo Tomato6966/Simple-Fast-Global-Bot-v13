@@ -20,7 +20,7 @@ module.exports = client => {
 
     client.on("messageCreate", async message => {
         //return if a message is received from dms, or an invalid guild, or from a BOT!
-        if(!message.guild || !message.guild.available || message.author.bot) return;
+        if(!message.guild || message.guild.available === false || message.author.bot) return;
         //if the current channel is a global channel:
         if( globalChannels.includes(message.channel.id) ){
             //the message sending data!
